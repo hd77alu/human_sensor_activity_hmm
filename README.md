@@ -25,7 +25,10 @@ predictions on held-out recordings.
 │   ├── train/                 # 50 labelled recording sessions
 │   └── test/                  # 8 held-out recording sessions
 └── notebook/
-    └── human_activity_hmm.ipynb
+│   └── human_activity_hmm.ipynb
+├── report/
+│   ├── Formative 2_HMM_Hamed.pdf
+├── requirements.txt
 ```
 
 Each recording session is a directory whose name identifies the split and
