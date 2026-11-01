@@ -46,12 +46,8 @@ recording time, sensor sampling rate, and platform.
 
 - Python 3.9 or newer
 - Jupyter Notebook or JupyterLab
-- NumPy
-- pandas
-- SciPy
-- scikit-learn
-- Matplotlib
-- Seaborn
+- The Python packages listed in
+  [`requirements.txt`](./requirements.txt)
 
 The notebook also works in Google Colab. No separate HMM package is required:
 the Gaussian HMM used by the project is implemented in the notebook with
@@ -86,7 +82,7 @@ NumPy.
 
    ```bash
    python -m pip install --upgrade pip
-   python -m pip install numpy pandas scipy scikit-learn matplotlib seaborn jupyter
+   python -m pip install -r requirements.txt
    ```
 
 4. Start Jupyter from the repository root:
